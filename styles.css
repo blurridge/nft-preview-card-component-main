@@ -3,3 +3,40 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding:30px 30px 30px;
+    width: 500px;
+}
+
+.desc,
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.nft-img {
+    border-radius: 15px;
+    width: 27rem;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+}
